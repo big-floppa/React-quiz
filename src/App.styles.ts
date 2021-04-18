@@ -31,7 +31,7 @@ export const Wrapper = styled.div`
   }
 
   .score {
-    color: #fff;
+    color: #56ccff;
     font-size: 2rem;
   }
 
