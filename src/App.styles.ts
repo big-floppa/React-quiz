@@ -8,7 +8,8 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     background-image: url(${backgorund});
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0 20px;
     display: flex;
@@ -25,7 +26,6 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
 
   > p {
     color: #fff;
